@@ -11,6 +11,10 @@
 		1D2712842563F181006CAAF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2712832563F181006CAAF9 /* ContentView.swift */; };
 		1D2712862563F183006CAAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2712852563F183006CAAF9 /* Assets.xcassets */; };
 		1D2712892563F183006CAAF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2712882563F183006CAAF9 /* Preview Assets.xcassets */; };
+		1D2712932563F20D006CAAF9 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2712922563F20D006CAAF9 /* Quote.swift */; };
+		1D2712962563F266006CAAF9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2712952563F266006CAAF9 /* Data.swift */; };
+		1D27129A2563F2BB006CAAF9 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D2712992563F2BB006CAAF9 /* quotes.json */; };
+		1D2712A12563F343006CAAF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2712A02563F343006CAAF9 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		1D2712852563F183006CAAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2712882563F183006CAAF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D27128A2563F183006CAAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D2712922563F20D006CAAF9 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		1D2712952563F266006CAAF9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1D2712992563F2BB006CAAF9 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		1D2712A02563F343006CAAF9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		1D2712802563F181006CAAF9 /* QuotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				1D27129C2563F2FD006CAAF9 /* Views */,
+				1D2712982563F2AC006CAAF9 /* Data */,
+				1D2712912563F1FA006CAAF9 /* Model */,
 				1D2712812563F181006CAAF9 /* QuotesAppApp.swift */,
 				1D2712832563F181006CAAF9 /* ContentView.swift */,
 				1D2712852563F183006CAAF9 /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				1D2712882563F183006CAAF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D2712912563F1FA006CAAF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D2712922563F20D006CAAF9 /* Quote.swift */,
+				1D2712952563F266006CAAF9 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D2712982563F2AC006CAAF9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1D2712992563F2BB006CAAF9 /* quotes.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1D27129C2563F2FD006CAAF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D2712A02563F343006CAAF9 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +164,7 @@
 			files = (
 				1D2712892563F183006CAAF9 /* Preview Assets.xcassets in Resources */,
 				1D2712862563F183006CAAF9 /* Assets.xcassets in Resources */,
+				1D27129A2563F2BB006CAAF9 /* quotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D2712842563F181006CAAF9 /* ContentView.swift in Sources */,
+				1D2712A12563F343006CAAF9 /* MainView.swift in Sources */,
+				1D2712932563F20D006CAAF9 /* Quote.swift in Sources */,
 				1D2712822563F181006CAAF9 /* QuotesAppApp.swift in Sources */,
+				1D2712962563F266006CAAF9 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
